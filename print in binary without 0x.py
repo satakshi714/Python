@@ -1,0 +1,5 @@
+u=int(input())
+v=int(input())
+a=(complex(u,v))
+b="{0:b}".format(u)
+print(a,b,sep="@")
