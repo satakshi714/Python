@@ -1,0 +1,7 @@
+a=input("data1:")
+b=input("data2:")
+a=a.split(",")
+b=b.split(",")
+d=sorted(dict(zip(a,b)))
+e=list(zip(d))
+print(e)
