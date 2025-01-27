@@ -1,0 +1,186 @@
+<!-- multiplication table -->
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Multiplication Table</title>
+</head>
+<body>
+<h3>Multiplication Table For Number 5</h3>
+<script type ="text/javascript">
+var  t=5;
+var  i=1;
+while(i<=20)
+{
+document.write(t+  "  X  "  +i+  "  =  "  +i*t+   "<br>");
+i++;
+}
+</script>
+</body>
+</html>
+ -->
+
+
+ <!-- leap year -->
+
+
+<!-- 
+<html>
+<head>
+<script>
+	function check_leapyear(){
+		//define variables
+		var year;
+ 
+		//get the entered year from text box 
+		year = document.getElementById("year").value;
+ 
+		//three conditions to find out the leap year
+		if( (0 == year % 4) && (0 != year % 100) || (0 == year % 400) )
+		{
+			document.write(year+" is a leap year");  
+		}
+		else
+		{
+			document.write(year+" is not a leap year");  
+		}
+	}
+</script>
+</head>
+<body>
+<h3>Javascript Program to find leap year</h3>
+<input type="text" id="year"></input>
+<button onclick="check_leapyear()">Check</button>
+</body>
+</html> -->
+
+<!-- celcius to fahrenheit and vice versa -->
+<!-- <html>
+    <head>
+        <script>
+            function cToF(celsius) {}
+
+
+            function fToC(fahrenheit) {}
+        </script>
+        <body>
+            <input type="text" id="year"></input>
+            <button onclick=""></button>
+        </body>
+    </head>
+</html> -->
+<!-- checking palindrome -->
+<!-- <html>  
+<head> <title> JavaScript Palindrome </title>  
+</head>  
+<body>  
+  
+ Use JavaScript programming code to validate the Palindrome numbers or strings. 
+<script>        
+          
+function validatePalin(str) {  
+  
+    // get the total length of the words  
+    const len = string.length;  
+  
+    // Use for loop to divide the words into 2 half  
+    for (let i = 0; i < len / 2; i++) {  
+  
+        // validate the first and last characters are same  
+        if (string[i] !== string[len - 1 - i]) {  
+            alert( 'It is not a palindrome');  
+        }  
+    }  
+    alert( 'It is a palindrome');  
+}  
+  
+// accept the string or number from the prompt  
+const string = prompt('Enter a string or number: ');  
+  
+const value = validatePalin(string);  
+  
+console.log(value);  
+</script>  
+    </body>  
+        </html>    -->
+
+<!-- calculator -->
+<!-- <html>
+    <head>
+        <script>
+            // program for a simple calculator
+
+// take the operator input
+const operator = prompt('Enter operator ( either +, -, * or / ): ');
+
+// take the operand input
+const number1 = parseFloat(prompt('Enter first number: '));
+const number2 = parseFloat(prompt('Enter second number: '));
+
+let result;
+
+// using if...else if... else
+if (operator == '+') {
+    result = number1 + number2;
+}
+else if (operator == '-') {
+    result = number1 - number2;
+}
+else if (operator == '*') {
+    result = number1 * number2;
+}
+else {
+    result = number1 / number2;
+}
+
+// display the result
+document.write(`${number1} ${operator} ${number2} = ${result}`);
+        </script>
+    </head>
+</html> -->
+<!-- prime number -->
+<!-- <html>
+    <head>
+        <script>
+let isPrime = true;
+ 
+ console.log("Prime numbers from 1 to 100 are: ");
+  
+ let i =2;
+ while(i <= 100){
+   let j=2;
+   while(j < i - 1){
+     if(i % j == 0){
+       isPrime = false;
+       break;
+     }
+     j++;
+   }
+   if(isPrime){
+     document.write(i+',');
+   }
+   isPrime = true;
+   i++;
+ }
+</script>
+</head>
+</html> -->
+<!-- reverse a number
+ -->
+ <!-- <html>
+    <head>
+        <script>
+   
+   var a = prompt("Enter a value");
+   var b, sum = 0;
+   var z = a;
+   while(a > 0)
+   {
+     b = a % 10;
+     sum = sum * 10 + b;
+     a = parseInt(a / 10);
+   }
+   alert(sum);
+</script>
+</head>
+</html> -->

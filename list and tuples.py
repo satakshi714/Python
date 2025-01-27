@@ -1,0 +1,6 @@
+a=input("data:" )
+b=a.split(',')
+d=tuple(b)
+print("tuple:",d)
+c=input("value: ")
+print(c in d)
